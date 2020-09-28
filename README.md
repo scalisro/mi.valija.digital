@@ -1,2 +1,2 @@
-# mi.valija.digital.github.io
+# mi.valija.digital
 "Mi valija digital" project
