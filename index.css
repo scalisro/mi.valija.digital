@@ -4,6 +4,9 @@ body {
 .bg-navbar {
   background-color: #02b3bdff;
 }
+.btn-outline-color {
+  background-color: #6f42c1ff;
+}
 #header img {
   width: 60px;
 }
@@ -32,10 +35,36 @@ body {
 #carousel .overlay .row {
   height: 100%;
 }
-
+#tips-online {
+  position: relative;
+  height: 438.2px;
+}
+#tips-online .overlay-2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  z-index: 1;
+}
+#tips-online .overlay-2 .container,
+#tips-online .overlay-2 .row {
+  height: 100%;
+}
 #footer {
   background-color: #02b3bdff;
 }
 #footer a {
   color: #FFFFFF;
+}
+.btn-outline-color {
+  background-color: #FFFFFF;
+  border-color: #6f42c1ff;
+  color: #6f42c1ff;
+}
+.btn-outline-color:hover {
+  color: #fff;
+  background-color: #6f42c1ff;
+  border-color: #6f42c1ff;
 }

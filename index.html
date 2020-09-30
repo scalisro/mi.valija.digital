@@ -81,7 +81,7 @@
       <div class="overlay">
         <div class="container">
           <div class="row align-items-center">
-            <div class="col-md-6 text-justify">
+            <div id="text-welcome" class="col-md-6 text-justify">
               <h1 class="text-sm-left text-center">Bienvenido</h1>
               <p class="d-none d-md-block">
                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui ut molestias fugiat, 
@@ -100,58 +100,70 @@
 </main>
 <!-- MAIN END -->
 <!-- SECTION 1 -->
-<section id="cursos" class="mt-4">
+<section id="tips-online">
+  <div class="overlay-2">
     <div class="container">
-      <div class="row mb-4">
-        <div class="col text-center text-uppercase">
-           <small class="text-white">Conoce nuestros</small>
-           <h2 class="text-white">Cursos</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 offset-md-6 text-justify">
+          <p class="text-white">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui ut molestias fugiat,
+            perferendis aperiam ducimus praesentium excepturi possimus et nesciunt iste similique
+            nihil blanditiis ipsa repudiandae labore maxime, esse ipsam. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Ab distinctio tenetur enim minima, dolorum exercitationem
+            illum natus pariatur, cum qui consequatur eius. Consequatur aliquam a veritatis eos nostrum?
+            Perspiciatis, dicta!
+          </p>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top" src="resources/cursos/pexels-excel.jpg" alt="Curso Excel">
-              <div class="card-body">
-                <h5 class="card-title">Curso Excel</h5>
-                <p class="card-text">Aprendizaje sobre la herramienta Excel con todas sus 
-                  caracteristicas. Curso inicial para comenzar a trabajar en planillas desde lo basico</p>
-                <a href="#" class="btn btn-primary">Suscribite</a>
-              </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SECTION 1 END -->
+<!-- SECTION 2 -->
+<section id="cursos" class="mt-4">
+  <div class="container">
+    <div class="row mb-4">
+      <div class="col text-center text-uppercase">
+        <small class="text-white">Conoce nuestros</small>
+        <h2 class="text-white">Cursos</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="resources/cursos/pexels-excel.jpg" alt="Curso Excel">
+            <div class="card-body">
+              <h5 class="card-title ">Curso Excel</h5>
+              <p class="card-text">Aprendizaje sobre la herramienta Excel con todas sus
+                caracteristicas. Curso inicial para comenzar a trabajar en planillas desde lo basico</p>
+              <a href="#" class="btn btn-outline-color">Suscribite</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top" src="resources/cursos/pexels-videocall.jpg" alt="Curso Excel">
-              <div class="card-body">
-                <h5 class="card-title">Herramientas de comunicacion</h5>
-                <p class="card-text">Aprendizaje sobre la herramienta Excel con todas sus
-                  caracteristicas. Curso inicial para comenzar a trabajar en planillas desde lo basico</p>
-                <a href="#" class="btn btn-primary">Suscribite</a>
-              </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="resources/cursos/pexels-videocall.jpg" alt="Curso Excel">
+            <div class="card-body">
+              <h5 class="card-title">Herramientas de comunicacion</h5>
+              <p class="card-text">Aprendizaje sobre la herramienta Excel con todas sus
+                caracteristicas. Curso inicial para comenzar a trabajar en planillas desde lo basico</p>
+              <a href="#" class="btn btn-outline-color">Suscribite</a>
             </div>
           </div>
-          <div class="col-md-4">
-            <div class="card">
-              <img class="card-img-top" src="resources/cursos/pexels-apps.jpg" alt="Curso Excel">
-              <div class="card-body">
-                <h5 class="card-title">Aplicaciones todo lo nuevo</h5>
-                <p class="card-text">Aprendizaje sobre la herramienta Excel con todas sus
-                  caracteristicas. Curso inicial para comenzar a trabajar en planillas desde lo basico</p>
-                <a href="#" class="btn btn-primary">Suscribite</a>
-              </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <img class="card-img-top" src="resources/cursos/pexels-apps.jpg" alt="Curso Excel">
+            <div class="card-body">
+              <h5 class="card-title">Aplicaciones todo lo nuevo</h5>
+              <p class="card-text">Aprendizaje sobre la herramienta Excel con todas sus
+                caracteristicas. Curso inicial para comenzar a trabajar en planillas desde lo basico</p>
+              <a href="#" class="btn btn-outline-color">Suscribite</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-</section>
-<!-- SECTION 1 END -->
-<!-- SECTION 2 -->
-<section id="tips-online">
-    <div class="row">
-      <div class="col-12 col-lg"></div>
-      <div class="col-12 col-lg"></div>
-    </div>
+  </div>
 </section>
 <!-- SECTION 2 END -->
 <!-- FOOTER -->
@@ -165,12 +177,11 @@
         <a href="" class="ref">Consultas</a>
       </div>
     </div>
-    <div class="row text-center">
+    <div class="row text-center mt-4">
       <div class="col-12 col-lg">
-          <img src="resources/gmail-white.png" alt="email">
-      </div>
-      <div class="col-12 col-lg">
-          <img src="resources/instagram-white.png" alt="instragram">
+          <a id="instagram" href="http://instagram/mi.valija.digital" target="_blank" alt="instagram">
+            <img src="resources/instagram-white.png" alt="instagram">
+          </a> 
       </div>
     </div>
   </div>
