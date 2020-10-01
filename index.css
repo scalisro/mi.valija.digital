@@ -7,11 +7,8 @@ body {
 .btn-outline-color {
   background-color: #6f42c1ff;
 }
-.navbar-toggler-icon {
-  
-}
-.navbar-light .navbar-toggler {
-  
+.shadow-black {
+  box-shadow: 0 0 20px #000000;
 }
 #header img {
   width: 60px;
